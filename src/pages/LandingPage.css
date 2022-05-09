@@ -1,0 +1,58 @@
+* {
+  font-family: "Lato-Regular";
+}
+
+.button {
+  background-color: #F7BF4F !important;
+}
+
+.nav-item {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #F7BF4F;
+}
+
+#title-row {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  padding-top: 125px;
+  padding-bottom: 125px;
+}
+
+#title-row::before {
+  content: "";
+  background-image: url(../assets/doctor-appointment.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.25;
+  
+}
+
+#intro-paragraph {
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-top: 40px;
+}
+
+#api-row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+#service-paragraph {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
