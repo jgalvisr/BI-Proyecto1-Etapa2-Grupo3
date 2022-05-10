@@ -1,12 +1,12 @@
 import React from "react";
 import "./LandingPage.css"
 import navbarLogo from "../assets/HealthCheck-logos_black.png"
-import row1Img from "../assets/doctor-appointment.jpg"
+import { ServiceComponent } from "../components/ServiceComponent";
 
 export const LandingPage = () => {
   return (
     <>
-    <nav className="navbar g-0">
+    <nav className="navbar p-0">
       <div className="container-fluid" id="navbar">
         <img src={navbarLogo} width={"150px"} />
       </div>
@@ -19,27 +19,7 @@ export const LandingPage = () => {
            algorithms and trained with a database containg more than 15000 real-life abstracts and diagnoses. 
            Learn more below about our organization or try our solution yourself, <b>absolutely free!</b></p>
       </div>
-      <div className="row" id="api-row">
-        <h1>TRY OUR SERVICES</h1>
-        <p id="service-paragraph">Select the service you want to try below.</p>
-        <ul className="nav nav-pills nav-fill" role="tablist">
-          <li className="nav-item" role="presentation">
-            <button className="nav-link active" id="predict-tab" data-bs-toggle="tab" data-bs-target="#nav-predict" type="button" role="tab">Illness prediction</button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button className="nav-link" id="test-tab" data-bs-toggle="tab" data-bs-target="#nav-test" type="button" role="tab">Model quality metrics</button>
-          </li>
-        </ul>
-      </div>
-      <div className="tab-content">
-        <div className="tab-pane fade show active" id="nav-predict" role="tabpanel">
-          Predict API service
-        </div>
-        <div className="tab-pane fade" id="nav-test" role="tabpanel">
-          Test API service
-        </div>
-      </div>
-        
+      <ServiceComponent />
     </>
   );
 }

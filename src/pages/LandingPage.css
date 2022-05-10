@@ -17,6 +17,10 @@
   background-color: #F7BF4F;
 }
 
+.navbar {
+  background-color: #F7BF4F;
+}
+
 #title-row {
   display: flex;
   align-items: center;
@@ -36,23 +40,11 @@
   bottom: 0px;
   left: 0px;
   opacity: 0.25;
-  
+  width: 100%;
 }
 
 #intro-paragraph {
   padding-left: 30%;
   padding-right: 30%;
   padding-top: 40px;
-}
-
-#api-row {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 20%;
-  padding-right: 20%;
-}
-
-#service-paragraph {
-  padding-top: 20px;
-  padding-bottom: 20px;
 }

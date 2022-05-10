@@ -1,0 +1,21 @@
+#api-row {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+#service-paragraph, .tab-content {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#predict-textbox {
+  height: 100px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#condition-paragraph {
+  margin-top: 20px;
+}
